@@ -62,6 +62,7 @@ recetas-git-equipo/
 |   |   |-- misky-stack-horizontal.png
 |   |   |-- misky-stack-horizontal-alt.png
 |   |   |-- misky-stack-isotipo.png
+|   |   |-- misky-stack-footer.png
 |   |   |-- misky-stack-wordmark.png
 |   |   |-- favicon.png
 |   |   |-- turron-salteno.jpg
