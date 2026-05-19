@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Misky Stack, pastelería del NOA inspirada en sabores regionales, identidad artesanal y dulces tradicionales.">
+    <meta name="author" content="Rosario Pierrestegui">
+    <title>Misky Stack - Pastelería del NOA</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand brand-logo fw-bold" href="./index.html">
+            <img src="./assets/img/misky-stack-horizontal.png" alt="Misky Stack">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="./pages/recetas.html">Recetas</a></li>
+              <li class="nav-item"><a class="nav-link" href="./pages/detalle-receta.html">Detalle</a></li>
+              <li class="nav-item"><a class="nav-link" href="./pages/error404.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+          <source src="./assets/video/banner-misky-stack.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center hero-content">
+          <div class="col-lg-5">
+            <div class="hero-brand">
+              <span class="badge badge-soft">Pastelería del NOA</span>
+              <img class="hero-logo" src="./assets/img/misky-stack-hero.png" alt="Misky Stack">
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="hero-copy">
+              <h1 class="display-4 fw-bold">Sabores del norte, código hecho con dulzura</h1>
+              <p class="lead mb-0">
+                Una pastelería inspirada en los sabores del norte argentino, con identidad artesanal,
+                regional y moderna.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section class="container py-5">
+        <div class="text-center mb-4">
+          <span class="section-kicker">Especialidades regionales</span>
+          <h2 class="fw-bold">Dulces con identidad del norte</h2>
+          <p class="text-muted mb-0">Una vidriera simple con recetas inspiradas en la pastelería del NOA.</p>
+        </div>
+        <div class="row g-4">
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="card bakery-card h-100">
+              <img src="./assets/img/turron-salteno.jpg" class="card-img-top" alt="Porción de turrón salteño con dulce de leche, merengue y nueces">
+              <div class="card-body">
+                <h3 class="h5">Turrón salteño</h3>
+                <p>El rey de la mesa dulce: capas crocantes, dulce de leche, nueces y merengue.</p>
+                <a class="btn btn-outline-danger" href="./pages/detalle-receta.html">Ver receta</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="card bakery-card h-100">
+              <img src="./assets/img/nueces-confitadas-mixtas.jpg" class="card-img-top" alt="Nueces confitadas blancas y de chocolate">
+              <div class="card-body">
+                <h3 class="h5">Nueces confitadas</h3>
+                <p>Bocados de nuez y dulce de leche bañados con glasé real o chocolate.</p>
+                <a class="btn btn-outline-danger" href="./pages/nueces-confitadas.html">Ver receta</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="card bakery-card h-100">
+              <img src="./assets/img/empanadillas-cayote.jpg" class="card-img-top" alt="Empanadillas de cayote horneadas y glaseadas">
+              <div class="card-body">
+                <h3 class="h5">Empanadillas de cayote</h3>
+                <p>Masitas rellenas con dulce de cayote, doradas al horno y terminadas con blanqueo.</p>
+                <a class="btn btn-outline-danger" href="./pages/empanadillas-cayote.html">Ver receta</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="feature-band py-5">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+              <h2 class="fw-bold">Tradición regional con mirada moderna</h2>
+              <p>
+                Misky Stack nace de una mesa dulce del norte: recetas familiares, ingredientes nobles
+                y postres que mezclan texturas, historia y sabor. Cada preparación busca conservar
+                el espíritu regional con una presentación actual.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="check-list">
+                <div>
+                  <p class="mb-2">Sabores que nos inspiran:</p>
+                  <ul class="mb-0">
+                    <li><a href="./pages/detalle-receta.html">Turrón salteño</a></li>
+                    <li><a href="./pages/colaciones-dulce-leche.html">Colaciones de dulce de leche</a></li>
+                    <li><a href="./pages/gaznates.html">Gaznates rellenos</a></li>
+                    <li><a href="./pages/alfajor-miel-cana.html">Alfajor de miel de caña</a></li>
+                    <li><a href="./pages/empanadillas-cayote.html">Empanadillas de cayote y nuez</a></li>
+                    <li><a href="./pages/nueces-confitadas.html">Nueces confitadas</a></li>
+                    <li><a href="./pages/pastel-novia.html">Pastel de novia</a></li>
+                  </ul>
+                </div>
+                <a class="btn btn-danger btn-lg feature-cta" href="./pages/recetas.html">Ver recetas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-4 mt-auto">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <img src="./assets/img/misky-stack-hero.png" alt="Misky Stack">
+          <p class="mb-0">© Todos los derechos reservados - Misky Stack</p>
+        </div>
+        <div class="footer-social">
+          <p class="mb-2 fw-bold">Seguinos en:</p>
+          <div class="social-links">
+            <a href="./pages/error404.html" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a>
+            <a href="./pages/error404.html" aria-label="X"><i class="bi bi-twitter-x" aria-hidden="true"></i><span class="visually-hidden">X</span></a>
+            <a href="./pages/error404.html" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a>
+            <a href="./pages/error404.html" aria-label="TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i><span class="visually-hidden">TikTok</span></a>
+          </div>
+          <p class="mb-0 small">Subí tu foto y etiquetanos.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
