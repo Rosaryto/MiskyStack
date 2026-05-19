@@ -54,7 +54,6 @@ recetas-git-equipo/
 |-- index.html
 |-- README.md
 |-- TAREA-PARA-TAIGA.txt
-|-- preview-detalle-turron.png
 |-- css/
 |   `-- style.css
 |-- assets/
