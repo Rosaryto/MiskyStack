@@ -18,6 +18,7 @@ Por eso la marca presenta una pastelería del NOA con lenguaje visual artesanal 
 - `index.html`: página principal con video/banner, presentación de marca, recetas destacadas y llamados a la acción.
 - `pages/recetas.html`: listado general de recetas dulces regionales.
 - `pages/detalle-receta.html`: detalle del turrón salteño.
+- `pages/identidad.html`: explicación del nombre Misky Stack y de la identidad del proyecto.
 - `pages/colaciones-dulce-leche.html`: receta de colaciones de dulce de leche.
 - `pages/gaznates.html`: receta de gaznates rellenos.
 - `pages/alfajor-miel-cana.html`: receta de alfajor de miel de caña.
@@ -34,6 +35,7 @@ Por eso la marca presenta una pastelería del NOA con lenguaje visual artesanal 
 - ✅ Logo propio de Misky Stack.
 - ✅ Galería de recetas con imágenes y efecto de zoom al pasar el mouse.
 - ✅ Botones con enlaces a la sección correspondiente.
+- ✅ Página de identidad del proyecto.
 - ✅ Footer con redes sociales mediante iconos.
 - ✅ Página 404 opcional.
 - ✅ README preparado para GitHub.
@@ -64,6 +66,7 @@ recetas-git-equipo/
 |   |   |-- misky-stack-isotipo.png
 |   |   |-- misky-stack-footer.png
 |   |   |-- misky-stack-wordmark.png
+|   |   |-- identidad-misky-stack.png
 |   |   |-- favicon.png
 |   |   |-- turron-salteno.jpg
 |   |   |-- turron-salteno-porcion.jpg
@@ -78,6 +81,7 @@ recetas-git-equipo/
 `-- pages/
     |-- recetas.html
     |-- detalle-receta.html
+    |-- identidad.html
     |-- colaciones-dulce-leche.html
     |-- gaznates.html
     |-- alfajor-miel-cana.html
